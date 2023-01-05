@@ -1,0 +1,27 @@
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgb(27, 27, 27);
+        margin:0px !important;
+        padding: 0px !important;
+    }
+    li {
+        list-style-type: none;
+    }
+    .atalhos-fundo{
+        background: #D9D9D9;
+        margin: 0px;
+    }
+    .atalhos{
+        display: inline;
+        pot
+    }
+    .apresentacao{
+        background: #082343;
+        background-position: right center;
+        height: 900px;
+    }
+    .img{
+        float: right;
+    }
+    </style>
