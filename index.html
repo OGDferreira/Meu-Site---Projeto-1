@@ -4,65 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6ab898b1bd.js" crossorigin="anonymous"></script>
     <title>Guilherme</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background: #082343;
-            margin:0px !important;
-            padding: 0px !important;
-            margin-top: -16px !important;
-        }
-        .atalhos-fundo{
-            background: #D9D9D9;
-            height: 50px;
-        }
-        nav li {
-            display: inline;
-            margin: 0 0 0 15%;    
-            list-style-type: none;
-        }
-        nav a {
-            text-transform: uppercase;
-            color: #082343;
-            font-weight: bold;
-            font-size: 22px;
-            text-decoration: none;
-            
-        }
-        .apresentacao{
-            margin-top: -14px;
-            background-color: none;
-            border:solid 1px #D9D9D9;
-            width: 90%;
-            margin: auto;
-            height: 750px;
-            margin-top: 50px;
-            color: #D9D9D9;
-        }
-        .ola{
-            text-transform: uppercase;
-            margin-left: 4%;
-            margin-top: 16%;
-            font-size: 27px;
-        }
-        .img{
-            margin-top: -400px;
-            float: right;
-            
-        }
-        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); </style>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="site">
         <header>
-            <div class="atalhos-fundo">
+            <div>
                 <nav class="atalhos">
                     <ul>
-                        <li class="quad"><a href="#" class="link">Projetos</a></button></button></li>    
-                        <li class="quad"><a href="https://github.com/OGDferreira" target="_blank" class="link">GITHUB</a></button></li>
-                        <li class="quad"><a href="https://linkedin.com/in/guilherme-de-oliveira-ferreira-5ab1a718a" target="_blank" class="link">LINKEDIN</a></button></li>
-                        <li class="quad"><a href="#" class="link">Quem sou</a></button></li>
+                        <li class="quad"><a href="#projetos" class="link">Projetos</a></li>    
+                        <li class="quad"><a href="https://github.com/OGDferreira" target="_blank" class="link">GitHub</a></li>
+                        <li class="quad"><a href="https://linkedin.com/in/guilherme-de-oliveira-ferreira-5ab1a718a" target="_blank" class="link">Linkedin</a></li>
+                        <li class="quad"><a href="#sobre-mim" class="link">Quem sou</a></li>
                     </ul>
                 </nav>
             </div>
@@ -71,30 +34,72 @@
                     <div class="ola">
                         <p>Olá, me chamo</p>
                         <h1>Guilherme Oliveira</h1>
+                        <div class="icones">
+                            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=27999384257" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://github.com/OGDferreira" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://linkedin.com/in/guilherme-de-oliveira-ferreira-5ab1a718a" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                        </div>
                     </div>
+                        <div class="img-efeito-1">
+                            <img src="img/fotominha.png" height="400px" width="400px" alt="">
+                        </div>
+                        <div class="img-efeito-2">
+                            <img src="img/fotominha.png" height="400px" width="400px" alt="">
+                        </div>
                         <div class="img">
-                            <img src="img/fotominha.png" height="670px" width="670px" alt="">
+                            <img src="img/fotominha.png" height="400px" width="400px" alt="">
                         </div>
                     </div>
             </div>
         </header>
     </div>
     <article>
-        <div class="projetos">
+        <div id="projetos" class="projetos">
             <main>
                 <h3>Projetos</h3>
-                <section>
-                    <div class="card">
-                        <img src="img/projetos.png" alt="">
-                        <p>Em breve</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/projetos.png" alt="">
-                        <p>Em breve</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/projetos.png" alt="">
-                        <p>Em breve</p>
+                <section class="content-section">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-animation">
+                                <img src="img/projetos.png" height="240px" width="360px" alt="">
+                                <figcaption class="breve">Em breve</figcaption>
+                            </div>
+                            <button type="submit" class="codigo"><p>Código</p></button><!--Optei por deixar em <p> e não um <a> por que quando clicava no botão codigo voltava para o início-->
+                        </div>
+                        <div class="card">
+                            <div class="card-animation">
+                                <img src="img/projetos.png" height="240px" width="360px" alt="">
+                                <figcaption class="breve">Em breve</figcaption>
+                            </div>
+                            <button type="submit" class="codigo"><p>Código</p></button>
+                        </div>
+                        <div class="card">
+                            <div class="card-animation">
+                                <img src="img/projetos.png"  height="240px" width="360px" alt="">
+                                <figcaption class="breve">Em breve</figcaption>
+                            </div>
+                            <button type="submit" class="codigo"><p>Código</p></button>
+                        </div>
+                        <div class="card">
+                            <div class="card-animation">
+                                <img src="img/projetos.png" height="240px" width="360px" alt="">
+                                <figcaption class="breve">Em breve</figcaption></div>
+                            <button type="submit" class="codigo"><p>Código</p></button>
+                        </div>
+                        <div class="card">
+                            <div class="card-animation">
+                                <img src="img/projetos.png" height="240px" width="360px" alt="">
+                                <figcaption class="breve">Em breve</figcaption>
+                            </div>
+                            <button type="submit" class="codigo"><p>Código</p></button>
+                        </div>
+                        <div class="card">
+                            <div class="card-animation">
+                                <img src="img/projetos.png"  height="240px" width="360px" alt="">
+                                <figcaption class="breve">Em breve</figcaption>
+                            </div>
+                            <button type="submit" class="codigo"><p>Código</p></button>
+                        </div>
                     </div>
                 </section>
             </main>
@@ -102,14 +107,16 @@
     </article>
     <article>
         <section>
-            <div class="sobre-mim">
-                <h2>Sobre mim</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ex at est ullamcorper aliquet sed et metus. Proin eros lacus, convallis id augue accumsan, lacinia hendrerit magna. Nullam condimentum ornare molestie. Cras eget enim sapien. Pellentesque ut lectus ut lacus iaculis feugiat a ac sapien. Vivamus lacus tortor, feugiat sit amet metus id, malesuada tristique nulla. Aenean varius bibendum enim at euismod. Vestibulum et dapibus nisl. Vivamus accumsan iaculis vehicula. Maecenas enim augue, lacinia dapibus mauris vel, volutpat mattis neque. Sed nec rhoncus tortor, ac lobortis odio. Phasellus laoreet mattis risus, nec vestibulum tortor iaculis at.</p>
+            <div id="sobre-mim" class="sobre-mim">
+                <h2>Quem sou</h2>
+                <p>Olá, me chamo Guilherme e tenho de 19 anos. Me interessei pela programação ainda quando estava no ensino médio, foi quando decidi estudar para me tornar um Desenvolvedor. Comecei minha faculdade de Engenharia de Software no inicio de 2022 e estou indo para o terceiro período. Após aprender um pouco de HMTL5 e CSS3, foquei meus estudos em PHP e Laravel, devido eu querer me tornar um desenvolvedor Bac-End.</p>
             </div>
         </section>
     </article>
     <footer>
-        <p> &copy; 2023 Guilherme</p>
+        <div class="rodape">
+            <p> &copy; 2023 Guilherme</p>
+        </div>
     </footer>
 </body>
 </html>
